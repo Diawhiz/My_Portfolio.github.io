@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="head-h1">SURVEY FORM</h1>
+    </header>
+    <main>
+        <form action="" id="form-card">
+            <h2 id="heading_text">Customer Satisfaction Survey</h2>
+            <p id="heading_text">Enhancing your experience - Customer satisfaction</p>
+            <input type="text" name="fullName" id="input_field" placeholder="Enter Fullname" required>
+            <div class="radio_selection">
+                <P><b>What is your age?</b></P>
+                <input type="radio" name="Age" id="radio_field"> 18 - 24
+                <input type="radio" name="Age" id="radio_field"> 25 - 40
+                <input type="radio" name="Age" id="radio_field"> 41 - 65
+                <input type="radio" name="Age" id="radio_field">Others
+            </div>
+            <div class="radio_selection">
+                <p><b>How do you find out about our service?</b></p>
+                <input type="radio" name="Radio_2" id="radio_field"> Websites
+                <input type="radio" name="Radio_2" id="radio_field"> Social Media
+                <input type="radio" name="Radio_2" id="radio_field"> Google
+                <input type="radio" name="Radio_2" id="radio_field"> Friends
+                <input type="radio" name="Radio_2" id="radio_field"> Others
+            </div>
+            <div class="radio_selection">
+                <p><b>Are you satisfied with our service?</b></p>
+                <input type="radio" name="Radio_3" id="radio_field"> Very Unsatisfied
+                <input type="radio" name="Radio_3" id="radio_field"> Unsatisfied
+                <input type="radio" name="Radio_3" id="radio_field"> Neutral
+                <input type="radio" name="Radio_3" id="radio_field"> Satisfied
+                <input type="radio" name="Radio_3" id="radio_field"> Very Satisfied
+            </div>
+            <div class="radio_selection">
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Very Unsatisfied</th>
+                            <th>Unsatisfied</th>
+                            <th>Neutral</th>
+                            <th>Satisfied</th>
+                            <th>Very Satisfied</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Satisfaction Level</td>
+                            <td><input type="radio" name="sLevel" id="radio_field"></td>
+                            <td><input type="radio" name="sLevel" id="radio_field"></td>
+                            <td><input type="radio" name="sLevel" id="radio_field"></td>
+                            <td><input type="radio" name="sLevel" id="radio_field"></td>
+                            <td><input type="radio" name="sLevel" id="radio_field"></td>
+                        </tr>
+                        <tr>
+                            <td>Driver Assistance</td>
+                            <td><input type="radio" name="dAssistance" id="radio_field"></td>
+                            <td><input type="radio" name="dAssistance" id="radio_field"></td>
+                            <td><input type="radio" name="dAssistance" id="radio_field"></td>
+                            <td><input type="radio" name="dAssistance" id="radio_field"></td>
+                            <td><input type="radio" name="dAssistance" id="radio_field"></td>
+                        </tr>
+                        <tr>
+                            <td>Punctuality Rate</td>
+                            <td><input type="radio" name="pRate" id="radio_field"></td>
+                            <td><input type="radio" name="pRate" id="radio_field"></td>
+                            <td><input type="radio" name="pRate" id="radio_field"></td>
+                            <td><input type="radio" name="pRate" id="radio_field"></td>
+                            <td><input type="radio" name="pRate" id="radio_field"></td>
+                        </tr>
+                        <tr>
+                            <td>Facility Comfort</td>
+                            <td><input type="radio" name="fComfort" id="radio_field"></td>
+                            <td><input type="radio" name="fComfort" id="radio_field"></td>
+                            <td><input type="radio" name="fComfort" id="radio_field"></td>
+                            <td><input type="radio" name="fComfort" id="radio_field"></td>
+                            <td><input type="radio" name="fComfort" id="radio_field"></td>
+                        </tr>
+                        <tr>
+                            <td>Price Quality</td>
+                            <td><input type="radio" name="pQuality" id="radio_field"></td>
+                            <td><input type="radio" name="pQuality" id="radio_field"></td>
+                            <td><input type="radio" name="pQuality" id="radio_field"></td>
+                            <td><input type="radio" name="pQuality" id="radio_field"></td>
+                            <td><input type="radio" name="pQuality" id="radio_field"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <label for="textarea"><b>Additional Comments or Suggestions:</b></label>
+                <textarea name="additionalComments" id="textarea" cols="70" rows="7" placeholder="Enter additional comments or suggestions"></textarea>
+            </div>
+            <button type="submit" id="btn">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
